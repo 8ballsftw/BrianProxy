@@ -8,7 +8,6 @@ body {
 }
 
 #middle {
-  /* border: 3px solid red; */
   max-width: 1704px;
   width: 100%;
   display: flex;
@@ -18,7 +17,6 @@ body {
 
 
 #description {
-  /* border: 2px solid black; */
   margin-left: 140px;
   height: 100%;
   width: 875px;
@@ -26,7 +24,6 @@ body {
 }
 
 .static {
-  /* border: 1px solid grey; */
   height: auto;
   max-width: 710px;
   padding-left: 137px;
@@ -37,13 +34,11 @@ body {
 }
 
 .Booking {
-  /* border: 2px solid blue; */
   height: auto;
   width: 376px;
 }
 
 #booking {
-  /* border: 1px solid purple; */
   position: sticky;
   top: 0;
   padding-top: 20px;
