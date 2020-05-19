@@ -1,10 +1,15 @@
+body {
+  background: transparent;
+}
+
 #photos {
   max-width: 2000px;
   height: auto;
 }
 
 #middle {
-  /* border: 2px solid black; */
+  /* border: 3px solid red; */
+  max-width: 1704px;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -12,42 +17,37 @@
 }
 
 #description {
-  /* border: 1px solid black; */
+  /* border: 2px solid black; */
+  margin-left: 140px;
   height: 100%;
-  overflow:hidden;
   width: 875px;
   padding-left: 10px;
 }
 
 .static {
+  /* border: 1px solid grey; */
   height: auto;
   max-width: 710px;
   padding-left: 137px;
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: flex-start;
   object-fit: cover;
-  overflow: hidden;
 }
 
-.booking {
-  z-index: 1;
-  position: relative;
-  border: 1px solid red;
+.Booking {
+  /* border: 2px solid blue; */
   height: auto;
-  width: 200px;
-  float: left;
-  padding-left: 50px;
+  width: 376px;
 }
 
-#Bookings {
-  /* border: 1px solid red; */
-  /* width: 200px; */
-  padding-left: 75px;
-  /* width: inherit; */
+#booking {
+  /* border: 1px solid purple; */
   position: sticky;
-  top: 20;
-  bottom: 20;
-  /* z-index: -1; */
-  /* top: 200px; */
+  top: 0;
+  padding-top: 20px;
+  padding-bottom: 90px;
+  height: inherit;
+  background: transparent;
+  z-index: 1;
 }
